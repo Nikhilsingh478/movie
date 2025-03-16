@@ -42,7 +42,7 @@ controls.enableZoom = false; // Disabled zoom functionality to prevent scroll re
 // Model loading
 const loader = new GLTFLoader();
 const loadModel = () => {
-    const modelPaths = ['Pbr/', 'Shadow/'];
+    const modelPaths = ['/Pbr/', '/Shadow/']; // Ensure correct paths
     let loaded = false;
 
     modelPaths.forEach(path => {
