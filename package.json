@@ -4,9 +4,10 @@
   "description": "3D model viewer using Three.js",
   "main": "index.js",
   "scripts": {
-  "preinstall": "chmod +x node_modules/.bin/vite",
-  "build": "vite build"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "three": "^0.162.0"
   },
